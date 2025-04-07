@@ -149,6 +149,6 @@ document_outline: |
   Telecom Services cover a wide range of topics including broadband connectivity, mobile service operations, mobile number portability, consumer complaint mechanisms, and billing/termination processes.
 document:
   repo: https://github.com/sankapoo/telecom.git
-  commit: 1eb29c08619a248f863de659aadfdff9c01b9705
+  commit: 763b450ee109d67f396c49760c10e024fc90fcd7
   patterns:
     - telecom/services/*.md
