@@ -1,0 +1,154 @@
+version: 3
+domain: Telecom/Services
+created_by: sankapoo
+seed_examples:
+  - context: |
+      This section covers broadband and Internet connectivity issues in telecom services.
+    questions_and_answers:
+      - question: |
+          Can the wireless Internet connection be misused?
+        answer: |
+          Yes, there is a possibility of the wireless Internet connection getting misused, particularly if the Internet access is provided through Wi-Fi. To avoid misuse, proper authentication with secured passwords and usernames should be used.
+      - question: |
+          Will keeping the modem on make any difference in the download limits?
+        answer: |
+          Yes, it can make a difference. When both the PC and modem are kept on, there may be a trickle of packets from the Internet into the system, even if the PC is not actively used. Therefore, it is advisable to turn off the modem when not accessing the Internet.
+      - question: |
+          What is the fair speed usage limit in case of an unlimited data plan?
+        answer: |
+          The fair speed usage limit is the threshold of data consumption up to which the subscriber receives the promised speed. Once this limit is exhausted, the speed is reduced as per TRAI guidelines.
+      - question: |
+          Even though broadband is not used frequently, still huge bills are received. What could be the reason?
+        answer: |
+          Broadband services come under various tariff packages with different download limits. Exceeding the permitted data limit incurs additional charges. Users should choose a package that suits their data usage.
+      - question: |
+          What is the minimum download speed prescribed for a broadband service provider?
+        answer: |
+          According to the Quality of Service regulations (Second Amendment, 2014), a minimum download speed of 512 kbps must be provided to individual subscribers.
+      - question: |
+          What is the permissible minimum broadband speed limit?
+        answer: |
+          As per TRAI's “Quality of Service standards for Broadband Services” (2006), a subscriber should receive at least 80% of the subscribed broadband connection speed from the ISP Node to the user.
+      - question: |
+          How can a subscriber measure the download speed of his broadband connection?
+        answer: |
+          Customers can check their download speed using the TRAI My Speed App, which typically displays the speed in Kbps.
+  - context: |
+      This section addresses mobile service operations and guidelines, including mobile tower installations and data service activation/deactivation.
+    questions_and_answers:
+      - question: |
+          What is the role of TRAI in commissioning-installation of mobile towers?
+        answer: |
+          TRAI is neither directly nor indirectly involved in levying taxes/fees on leasing premises for mobile tower installations, nor does it issue any No Objection Certificates for this purpose.
+      - question: |
+          How are blackout days different from normal days?
+        answer: |
+          Blackout days are special days when service providers do not allow free or concessional calls/SMS. Tariffs on these days follow the base plan, and blackout days are limited to five per calendar year, with the list published in advance.
+      - question: |
+          What are the guidelines for operators to activate/deactivate data on mobile services?
+        answer: |
+          Operators must not activate or deactivate data without explicit subscriber consent. Subscribers can send SMS commands (e.g., 'START' or 'STOP' to 1925) to manage data services. Additionally, operators send usage alerts via SMS/USSD as data thresholds are reached.
+  - context: |
+      This section covers Mobile Number Portability (MNP), including eligibility, procedures, and associated charges.
+    questions_and_answers:
+      - question: |
+          What is Mobile Number Portability?
+        answer: |
+          Mobile Number Portability allows a telecom subscriber to switch from one operator to another while retaining the same mobile number, regardless of geographical area.
+      - question: |
+          What is the eligibility criterion for receiving a Unique Porting Request (UPC)?
+        answer: |
+          A subscriber must meet several criteria: clearing outstanding dues, a minimum activation period of 90 days, no ongoing change of ownership, fulfillment of contractual obligations, and other checks (e.g., not being under legal prohibition or sub-judice, and waiting seven days post SIM swap/replacement).
+      - question: |
+          What is the procedure for Mobile Number Portability?
+        answer: |
+          The process includes generating a UPC by sending an SMS with the word 'PORT' and the mobile number, submitting the required forms and KYC documents, and then undergoing a porting process that typically takes 3 to 15 working days depending on the region.
+      - question: |
+          What are the grounds of rejection of a porting request?
+        answer: |
+          For individual subscribers, valid UPC typically prevents rejection. However, for corporate numbers, rejection may occur if the porting request is not supported by a valid authorization letter.
+      - question: |
+          How can a customer withdraw his porting request?
+        answer: |
+          A customer can withdraw the porting request within 24 hours by sending an SMS with the word 'CANCEL' followed by the mobile number. Note that any porting charges paid will not be refunded upon withdrawal.
+      - question: |
+          What is the validity period of UPC?
+        answer: |
+          UPC is valid for 4 days in most areas; in Jammu & Kashmir, Assam, and North East, it remains valid for 30 days (excluding the day of generation).
+      - question: |
+          What is the limit for corporate numbers porting attached to a single Authorization letter?
+        answer: |
+          A single Authorization letter can be used for porting up to 100 corporate mobile numbers.
+      - question: |
+          What are the charges to be paid for porting a mobile number?
+        answer: |
+          The charge per porting request is capped at six rupees and forty-six paisa, as specified by the recipient operator.
+      - question: |
+          Will the subscriber be informed about the porting process?
+        answer: |
+          Yes, subscribers are notified via SMS at every stage of the porting process including submission, scheduling, deactivation by the donor operator, and activation by the recipient operator.
+      - question: |
+          How can a telecom subscriber get information about the status of his MNP request?
+        answer: |
+          Status updates are communicated via SMS at each stage of the mobile number porting process.
+  - context: |
+      This section covers consumer complaint mechanisms, regulatory guidelines, and the process for lodging appeals in telecom services.
+    questions_and_answers:
+      - question: |
+          What are Licensed Service Areas (LSAs) and MNP Zones?
+        answer: |
+          The country is divided into 22 geographical regions known as LSAs. For MNP, there are 2 zones, each consisting of 11 LSAs.
+      - question: |
+          What is the role of TRAI in handling telecom consumer complaints?
+        answer: |
+          TRAI mandates that telecom service providers establish a two-tier complaint redressal mechanism. While it sets the framework, TRAI does not directly resolve individual complaints.
+      - question: |
+          How can I register my complaint?
+        answer: |
+          Complaints can be lodged at the Complaint Centre of the respective service provider. The details for registration are usually available on the provider's website.
+      - question: |
+          What happens when I register my complaint with the Complaint Centre?
+        answer: |
+          The Complaint Centre registers the complaint and sends an SMS with a docket number, registration date and time, and an estimated resolution time.
+      - question: |
+          What is the time limit for resolution of complaints at the Complaint Centre?
+        answer: |
+          Complaints should be resolved within a period not exceeding three days, or as specified under the applicable Quality of Service regulations.
+      - question: |
+          How will I know of the completion of action on my complaint?
+        answer: |
+          Once resolved, the service provider will communicate the action taken via SMS, email, or postal mail, along with details on how to appeal if necessary.
+      - question: |
+          If the complainant is not satisfied with the redressal at the Complaint Centre, who should be contacted?
+        answer: |
+          Unsatisfied consumers may escalate their complaint to the Appellate Authority designated by their telecom service provider.
+      - question: |
+          Is there any time limit for making an appeal to the appellate authority?
+        answer: |
+          Appeals must generally be filed within 30 days after the complaint resolution period expires, though extensions up to three months may be considered if justified.
+      - question: |
+          What is the time limit for disposal of an appeal by the appellate authority?
+        answer: |
+          The appellate authority typically disposes of appeals within approximately 39 days from the date of filing.
+  - context: |
+      This section covers billing issues, service termination, and refund processes in telecom services.
+    questions_and_answers:
+      - question: |
+          What is the time limit for resolving a billing or charging complaint?
+        answer: |
+          For Basic (Wireline) and Cellular Services, billing complaints must be resolved within 6 weeks with any account adjustments made within one week. For Broadband services, complaints should be resolved within 4 weeks.
+      - question: |
+          A consumer has made a request for termination (closure) of the service. How long does he/she have to wait? What about rentals and other dues?
+        answer: |
+          The service provider should terminate the connection within 7 days and stop charging rentals beyond this period. Security deposits must be refunded within 60 days, and delayed refunds may incur interest.
+      - question: |
+          What should a consumer do if there is a discrepancy in the final bill after service termination?
+        answer: |
+          If a discrepancy is found in the final bill, the consumer should immediately contact the service provider's customer care to request a detailed review of the bill. If the issue is not resolved satisfactorily, the consumer may escalate the matter to the appropriate regulatory authority.
+document_outline: |
+  Telecom Services cover a wide range of topics including broadband connectivity, mobile service operations, mobile number portability, consumer complaint mechanisms, and billing/termination processes.
+document:
+  repo: https://github.com/sankapoo/taxonomy-knowledge-docs-telecom.git
+  commit: 0000000000000000000000000000000000000000
+  patterns:
+    - telecom/services/*.md
