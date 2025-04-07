@@ -152,3 +152,4 @@ document:
   commit: 763b450ee109d67f396c49760c10e024fc90fcd7
   patterns:
     - telecom/services/*.md
+    - telecom2.md
